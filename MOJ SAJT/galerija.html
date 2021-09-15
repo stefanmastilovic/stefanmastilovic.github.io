@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<div style="visibility:hidden">
+<a href="http://apycom.com/">Apycom jQuery Menus</a>
+</div>
+
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="galleria/galleria-1.2.8.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+<link type="text/css" href="menu.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+		
+		<style>
+    #galleria{ width: 700px; height: 400px; background: #000 }
+</style>
+    </head>
+    <body onload="startTime()">
+	<div id="pozadina"><img src="slike/BackgroundSized.png"></div>
+	<div id="omot">
+<header id="heder">
+
+<div id="tekst">
+<h1>Fitness Gym C3</h1>
+</div>
+
+<div id="slika">
+<img src="slike/logo.jpg" alt="Logo" style="position: right" height="100px" width="125px"/> 
+</div>
+
+</header>
+<div id="menu">
+<ul class="menu">
+<li><a href="sajt.html"class="parent"><span>Početna</span></a></li>
+<li><a href="galerija.html"class="parent"><span>Galerija</span></a></li>
+<li><a href="cenovnik.html"class="parent"><span>Cenovnik Usluga</span></a></li>
+<li><a href="bmi.html"class="parent"><span>BMI Kalkulator</span></a></li>
+<li><a href="kontakt.html"class="parent"><span>Kontakt</span></a></li>
+</ul>
+</div>
+        <div id="galleria">
+            <img src="slike/18.jpg">
+            <img src="slike/17.jpg">
+            <img src="slike/20.jpg">
+			<img src="slike/19.jpg">
+			<img src="slike/21.jpg">
+			<img src="slike/16.jpg">
+			<img src="slike/15.jpg">
+        </div>
+        <script>
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+            Galleria.run('#galleria')
+        </script>
+		
+    </body>
+	<footer id="futer">
+<body onload="startTime()">
+<div id="txt"></div>
+Dizajnirali 1044/2020 & 254/2018
+
+</body>
+</footer>
+</div>
+</html>

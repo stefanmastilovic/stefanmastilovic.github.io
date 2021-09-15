@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <div style="visibility:hidden">
+<a href="http://apycom.com/">Apycom jQuery Menus</a>
+</div>
+<head>
+<title>Cenovnik</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link type="text/css" href="menu.css" rel="stylesheet" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+ </head>
+<body>
+<div id="pozadina"><img src="slike/BackgroundSized.png"></div>
+<div id="omot">
+<header id="heder">
+
+<div id="tekst">
+<h1>Fitness Gym C3</h1>
+</div>
+
+<div id="slika">
+<img src="slike/logo.jpg" alt="Logo" style="position: right" height="100px" width="125px"/> 
+</div>
+
+<div id="logovanje">
+
+<h5><a href="registracija.html">Registracija</a></h5>
+</div>
+
+</header>
+<div id="menu">
+<ul class="menu">
+<li><a href="sajt.html"class="parent"><span>Početna</span></a></li>
+<li><a href="galerija.html"class="parent"><span>Galerija</span></a></li>
+<li><a href="cenovnik.html"class="parent"><span>Cenovnik Usluga</span></a></li>
+<li><a href="bmi.html"class="parent"><span>BMI Kalkulator</span></a></li>
+<li><a href="kontakt.html"class="parent"><span>Kontakt</span></a></li>
+</ul>
+</div>
+<section id="sadrzaj">
+<div id="bmiDiv">
+<form name="bmiForm">
+Vasa Tezina(kg): <input type="text" name="weight" size="10">
+</br></br>Vasa Visina(cm): <input type="text" name="height" size="10">
+</br></br><input type="button" value="Izracunaj BMI" onClick="izracunajBmi()">
+</br></br>Vas BMI: <input type="text" name="bmi" size="10">
+</br></br>U prevodu: <input type="text" name="meaning" size="30">
+</br></br><input type="reset" value="Reset" />
+</form>
+
+
+
+</section>
+
+<footer id="futer">
+<body onload="startTime()">
+<div id="txt"></div>
+Dizajnirali 1044/2020 & 254/2018
+
+</footer>
+</div>
+</body>
+</html>

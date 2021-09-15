@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+ <div style="visibility:hidden">
+<a href="http://apycom.com/">Apycom jQuery Menus</a>
+</div>
+<head>
+<title>Registracija</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="js/js.js"></script>
+
+
+</head>
+
+
+<body onSubmit="validacija()">
+<div id="pozadina"><img src="slike/BackgroundSized.png"></div>
+<div id="omot">
+<div id="heder">
+<h1>Registracija</h1>
+</div>
+<div id="forms">
+
+
+<form name="forme" action="registracija.html"  onsubmit="return validacija(); proveriradio(dugmici);" method="get">
+<br/>Ime: <input type="textbox" name="ime"><br/>
+<br/> Prezime: <input type="textbox" name="prezime"><br/>
+<br/>Pol:    <input type="radio" name="pol" value="male">  Muškarac    <input type="radio" name="pol" value="female"> Devojka<br />
+<br/>Datum rođenja: <input type="date" name="bday"><br/>
+<br/>Korisnicko ime: <input type="username" name="username"><br/>
+<br/>Šifra: <input type="password" name="password"><br/>
+<br/>Email: <input type="email" name="email"><br/>
+<br/><input type="submit" value="Potvrdi">
+</form>
+</div>
+
+
+
+<footer id="futer">
+<body onload="startTime()">
+<div id="txt"></div>
+Dizajnirali 1044/2020 & 254/2018
+
+</footer>
+
+</div>
+
+</body>
+
+</html>

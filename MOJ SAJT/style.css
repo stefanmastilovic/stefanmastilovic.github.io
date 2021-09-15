@@ -1,0 +1,241 @@
+*{
+margin: 0;
+padding: 0;
+
+}*
+
+body{
+font: 12px Tahoma;
+background-repeat: repeat;
+line-height: normal;
+color: White;
+
+}
+#omot{
+width: 1000px;
+margin: 20px auto;
+background: url(slike/4.jpg);
+border-radius:25px;
+border: 2px solid white;
+}
+
+#heder{
+background: none;
+border-bottom: 2px white;
+border-style:groove;
+padding: 15px;
+color: black;
+border-radius:25px 25px 0 0;
+height: 120px;
+}
+
+#meni{
+border: 2px solid white;
+background: url(slike/10.png);
+color: red;
+position: relative;
+top: -150px;
+left: 0px;
+}
+
+#meni li{
+display: inline-block;
+list-style: none;
+padding: 7px;
+font: bold 14px Times new roman;
+
+}
+
+#meni a{
+color: white;
+text-decoration: none;
+}
+
+#meni a:hover {
+color: green;
+text-decoration: underline;
+}
+
+
+#linkovi{
+position: relative;
+left: 100%;
+top: -450%;
+width: 150px;
+margin: 20px 0px;
+padding: 30px;
+background: none;
+margin-right: 15px;
+height: 250px;
+}
+
+#futer{
+clear: both;
+text-align: center;
+padding: 5px;
+border-top: 1px solid black;
+background: url(slike/Untitled.png);
+color: white;
+border-radius: 0 0 25px 25px;
+}
+
+#sadrzaj{
+float: left;
+width: 660px;
+margin: 30px;
+
+}
+
+article{
+background: none;
+border: 1px solid white;
+border-radius:25px;
+box-shadow: 10px 10px 5px #888888;
+margin-bottom: 15px;
+padding: 15px; 
+width: 640px;
+text-align: left;
+}
+
+#tekst {
+position: relative;
+top: 70px;
+left: 0px;
+color: white;
+text-align: center;
+padding: 10px;
+color: black;
+text-decoration: bold;
+}
+
+#slika {
+position: relative;
+top: -56px;
+left: 0px;
+padding: 10px;
+}
+
+#logovanje {
+border: 1px black;
+position: relative;
+top: -175px;
+left: 885px;
+color: white;
+width: 60px;
+}
+
+#logovanje li{
+display: block;
+list-style: none;
+padding: 7px;
+font: bold 14px Times new roman;
+}
+
+#logovanje a{
+color: white;
+
+}
+
+#logovanje a:hover{
+color: gray;
+text-decoration: italic;
+}
+
+a {
+COLOR: blue;
+text-decoration: underline;}
+
+a:visited {
+COLOR: solid blue;
+text-decoration: underline;
+}
+
+a:hover { 
+color: white;
+}
+
+h1{
+color: white;
+}
+
+form {
+color: white;
+border: 2px white;
+text-align: center; 
+
+}
+
+#pozadina img{
+min-height: 100%;
+min-width: 800px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: -10;
+
+}
+
+#mapa {
+position:relative;
+left: 275px;
+
+}
+
+#ime{
+position: relative;
+left: 450px;
+}
+p {
+text-align: justify;
+}
+
+#vesti {
+position: relative;
+top: 0px;
+right: -20%;
+} 
+#futer2 {
+text-align: right;
+padding: 5px;
+}
+
+#slicice{ 
+position: relative;
+top: -700px;
+}
+
+
+table, td, th{
+text-align: center;
+background-color: white;
+border: 1px solid black;
+padding: 10px;
+width:500px;
+position:relative;
+right: -34%;
+color: black;
+}
+
+#galleria{
+position: relative;
+right: -15%;
+}
+
+#bmiDiv{
+position: relative;
+right: -20%;
+}
+
+#fb{
+position: relative;
+right: -37%;
+}
+
+h4 {
+font: 26px white;
+position: relative;
+left: 370px;
+text-decoration: none;
+}

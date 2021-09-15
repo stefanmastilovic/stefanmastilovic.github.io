@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+
+}*
+
+body{
+font: 12 px Tahoma;
+line-height: normal;
+color: blue;
+
+}
+#omot{
+
+width: 1000px;
+margin: 20px auto;
+background: url(slike/10.png);
+border-radius:25px;
+border: 2px solid white;
+}
+
+#heder{
+background: url(slike/10.png);
+border-bottom: 2px white;
+border-style:groove;
+padding: 15px;
+color: black;
+border-radius:25px 25px 0 0;
+height: 105px;
+}
+
+#meni{
+border: 2px solid white;
+background: url(slike/10.png);
+color: red;
+}
+
+#meni li{
+display: inline-block;
+list-style: none;
+padding: 7px;
+font: bold 12px Times new roman;
+}
+
+#meni a{
+color: white;
+text-decoration: none;
+}
+
+#meni a:hover {
+color: green;
+text-decoration: underline;
+}
+
+
+#linkovi{
+float: right;
+position: relative;
+right: -300px;
+width: 200px;
+margin: 20px 0px;
+padding: 30px;
+background: black;
+border-radius:25px;
+box-shadow: 10px 10px 5px #888888;
+ margin-right: 15px;
+}
+
+#futer{
+height: 40px;
+clear: left;
+text-align: center;
+padding: 5px;
+border-top: 1px solid black;
+background: url(slike/futer.png);
+color: white;
+border-bottom-right-radius:25px;
+border-bottom-left-radius:25px;
+}
+
+#sadrzaj{
+float: left;
+width: 660px;
+margin: 30px;
+}
+
+article{
+background: #FFFBCC;
+border: 1px solid red;
+border-radius:25px;
+box-shadow: 10px 10px 5px #888888;
+margin-bottom: 15px;
+padding: 20px; 
+}
+
+#tekst {
+position: relative;
+top: 70px;
+left: 0px;
+color: white;
+text-align: center;
+padding: 10px;
+color: black;
+text-decoration: bold;
+}
+
+#slika {
+position: relative;
+top: -65px;
+left: -15px;
+padding: 10px;
+}
+
+#logovanje {
+border: 1px black;
+position: relative;
+top: -175px;
+left: 875px;
+color: white;
+}
+
+#logovanje li{
+display: block;
+list-style: none;
+padding: 7px;
+font: bold 12px Times new roman;
+}
+
+#logovanje a{
+color: white;
+
+}
+
+#logovanje a:hover{
+color: green;
+text-decoration: italic;
+}
+
+a {
+COLOR: blue;
+text-decoration: underline;}
+
+a:visited {
+COLOR: solid blue;
+text-decoration: underline;
+}
+
+a:hover { 
+color: white;
+}
+
+h1{
+color: white;
+}
+
+form {
+color: white;
+border: 2px white;
+text-align: center; 
+
+}
+
+#pozadina img{
+min-height: 100%;
+min-width: 800px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: -10;
+
+}
+#pozadina {
+height: auto;
+width: auto;
+z-index: -11;
+}
